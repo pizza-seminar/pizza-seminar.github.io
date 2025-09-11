@@ -2,8 +2,8 @@
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//{{site.name}}//Events//EN
-X-WR-CALNAME:{{site.name}} calendar
+PRODID:-//{{site.title}}//Events//EN
+X-WR-CALNAME:{{site.title}} calendar
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:{{site.timezone}}
