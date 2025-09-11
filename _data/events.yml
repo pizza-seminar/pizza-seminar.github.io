@@ -1,0 +1,52 @@
+#Example ecents
+- speaker: TBA
+  date: 2025-12-05T12:00:00-04:00
+  location: DRL A6
+
+- speaker: Ellis Buckminster
+  date: 2025-11-21T12:00:00-04:00
+  location: DRL A6
+
+- speaker: Vicente Bosca
+  date: 2025-11-14T12:00:00-04:00
+  location: DRL A6
+
+- speaker: TBA (this could be you!)
+  date: 2025-11-7T12:00:00-04:00
+  location: DRL A6
+
+- speaker: Nikita Borisov
+  date: 2025-10-31T12:00:00-04:00
+  location: DRL A6
+
+- speaker: TBA (this could be you!)
+  date: 2025-10-24T12:00:00-04:00
+  location: DRL A6
+
+- speaker: Jacob Monzel
+  date: 2025-10-17T12:00:00-04:00
+  location: DRL A6
+
+- speaker: James Opre
+  date: 2025-10-03T12:00:00-04:00
+  location: DRL A6
+
+- speaker: Luis Modes Castillo
+  date: 2025-09-26T12:00:00-04:00
+  location: DRL A6
+
+- speaker: Maxine Calle
+  date: 2025-09-19T12:00:00-04:00
+  location: DRL A6
+
+- title: Funny Consequences of the Axiom of Choice
+  abstract: Many of us are familiar with the Banach-Tarski paradox, but do you know of nonlinear solutions to the equation f(x+y)=f(x)+f(y), or of tricks where it seems as though we can infer an uncountably infinite amount of things from only a countably infinite amount of information? We will discuss some silly tricks you can do with the axiom of choice, and, time permitting, some of its alternatives, and the silly things you can do with them.
+  speaker: Carmine Ingram
+  date: 2025-09-12T12:00:00-04:00
+  location: DRL A6
+
+- title: The sequence 1, 11, 21, 1211, ... (its name is a spoiler!)
+  abstract: This talk is about a very playful sequence, originally studied by John Conway, whose first terms are displayed in the title. We'll define the sequence, prove some of its basic properties, and then discuss Conway's "cosmological theorem," which determines the limiting behavior of the sequence. A surprising role is played by a particular endomorphism of the free monoid on 92 generators.
+  speaker: Riley Shahar
+  date: 2025-09-05T12:00:00-04:00
+  location: DRL A6

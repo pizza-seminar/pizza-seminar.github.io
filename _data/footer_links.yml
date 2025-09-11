@@ -1,0 +1,6 @@
+- name: Home
+  url: .
+- name: Organizers
+  url: ./organizers
+- name: Past Years
+  url: https://web.sas.upenn.edu/pizza-seminar/

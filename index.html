@@ -1,0 +1,77 @@
+---
+title: Home
+layout: base
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+			<div class="panel panel-default ">
+				<div class="panel-heading">
+						<h3 class="biko light_background">Upcoming Talks</h4>
+				</div>
+				<div class="panel-body">
+
+					{%- assign past = site.data.events
+					| where_exp: "t", "t.date and t.date >= site.time"
+						| sort: "date" -%}
+
+					{%- if past == empty -%}
+						<p>No past talks.</p>
+					{%- else -%}
+						{%- for talk in past -%}
+							{% include talk.html talk=talk %}
+							{%- unless forloop.last -%}<hr>{%- endunless -%}
+						{%- endfor -%}
+					{%- endif -%}
+
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="col-md-5"> -->
+		<!---->
+		<!-- 	{% assign next = site.data.events -->
+		<!-- 		| where_exp: "t", "t.date and t.date >= site.time" -->
+		<!-- 		| sort: "date" -->
+		<!-- 		| first %} -->
+		<!---->
+		<!-- 	<div class="panel panel-default "> -->
+		<!-- 		<div class="panel-heading"> -->
+		<!-- 				<h3 class="biko light_background">Next Talk</h4> -->
+		<!-- 		</div> -->
+		<!-- 		<div class="panel-body talk"> -->
+		<!-- 			{% if next %} -->
+		<!-- 				{% include talk.html talk=next %} -->
+		<!-- 			{% else %} -->
+		<!-- 				<p>No upcoming talks.</p> -->
+		<!-- 			{% endif %} -->
+		<!-- 		</div> -->
+		<!-- 	</div> -->
+		<!---->
+		<!-- </div> -->
+
+		<div class="col-md-5">
+
+			<div class="panel panel-default ">
+				<div class="panel-heading">
+						<h3 class="biko light_background">Past Talks</h4>
+				</div>
+				<div class="panel-body">
+					{%- assign past = site.data.events
+						| where_exp: "t", "t.date and t.date <= site.time"
+						| sort: "date"
+						| reverse -%}
+
+					{%- if past == empty -%}
+						<p>No past talks.</p>
+					{%- else -%}
+						{%- for talk in past -%}
+							{% include talk.html talk=talk %}
+							{%- unless forloop.last -%}<hr>{%- endunless -%}
+						{%- endfor -%}
+					{%- endif -%}
+				</div>
+			</div>
+	</div>
+</div>

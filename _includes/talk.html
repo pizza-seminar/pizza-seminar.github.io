@@ -1,0 +1,25 @@
+<article class="talk">
+  <h3 class="talk-title">{{ include.talk.title }}</h3>
+
+  <p class="talk-meta">
+    {% if include.talk.speaker %}
+      <span class="talk-speaker">{{ include.talk.speaker }}</span>
+    {% endif %}
+
+    {% if include.talk.date %}
+      {% if include.talk.speaker %} · {% endif %}
+      <time datetime="{{ include.talk.date | date_to_xmlschema }}">
+        {{ include.talk.date | date: "%B %-d at %-I:%M %p %Z" }}
+      </time>
+    {% endif %}
+
+    {% if include.talk.location %}
+      {% if include.talk.speaker or include.talk.date %} · {% endif %}
+      <span class="talk-location">{{ include.talk.location }}</span>
+    {% endif %}
+  </p>
+
+  {% if include.talk.abstract %}
+    <p class="talk-abstract">{{ include.talk.abstract }}</p>
+  {% endif %}
+</article>

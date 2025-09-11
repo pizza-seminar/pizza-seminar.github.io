@@ -1,0 +1,125 @@
+---
+---
+
+@import "mixins";
+
+$background-color: {{site.background_color}};
+$accent-color: {{site.accent_color}};
+$accent-text-color:white;
+
+$footer-text: {{site.footer_text_color}};
+
+@font-face {
+    font-family: Biko;
+    src: url('../fonts/Biko_Regular.otf');
+}
+
+html { height: 100%; width: 100% }
+
+body {
+    background-color: $background-color;
+    padding: 0;
+    font-size: 1.6em;
+    height: 100%;
+    width: 100%;
+    font-family: "Lato", Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "Biko", Helvetica, sans-serif;
+}
+
+.biko {
+    font-family: "Biko", Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 7em;
+    padding-bottom: 1em;
+}
+
+.white-text {
+    color: $accent-text-color;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+
+h2 {
+    padding-bottom: 30px;
+}
+
+div.panel {
+    @include box-shadow(1px 5px 8px 1px rgba(0,0,0,.19));
+    @include border-radius(0);
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #333;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .panel-heading {
+        h1, h2, h3, h4, h5, h6, .panel-title {
+          margin-top: .6em;            // removes the extra space above (and below)
+          line-height: 1.2;
+        }
+        height: 70px;
+        background-color: $accent-color;
+        @include border-radius(0);
+    }
+}
+
+.text-imp {
+    color: darken($footer-text,100%);
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-size: 100%;   
+     &:active, &:focus {
+        color: darken($footer-text,100%);
+        opacity: 0.9;
+    }
+}
+
+footer {
+    padding-top: 2em;
+    width: 100%;
+  
+    p {
+        color: $footer-text;
+        opacity: 0.5;
+        font-size: 70%; 
+
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+    a {
+        opacity: 0.5;   
+        color: $footer-text;
+        @include transition(0.5s ease);
+        font-size: 70%; 
+
+        &:hover {
+            opacity: 0.9;
+            color: $footer-text;
+        }
+
+        &:active, &:focus {
+            color: $footer-text;
+            opacity: 0.5;
+        }
+        
+    }
+}
+
+
+
