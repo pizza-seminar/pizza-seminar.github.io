@@ -2,11 +2,10 @@
 # PERSONALIZATION
 # Site variables
 title: Penn Pizza Seminar
-original_repo: https://github.com/rileyshahar/pizza-seminar
+original_repo: https://github.com/pizza-seminar/pizza-seminar.github.io
 description: The graduate pizza seminar in the math department at the University of Pennsylvania.
-domain: rileyshahar.github.io
-url: https://rileyshahar.github.io
-baseurl: /pizza-seminar/
+domain: pizza-seminar.github.io
+url: https://pizza-seminar.github.io
 
 
 # Style variables
