@@ -31,7 +31,9 @@
   date: 2025-10-03T12:00:00-04:00
   location: DRL A6
 
-- speaker: Luis Modes Castillo
+- title: The extension theorem and aperiodic tilings of the plane
+  abstract: "In this talk, we will prove the following intuitive result: If we can tile arbitrarily large disks of the plane with finitely many bounded tiles, then we can tile the whole plane. We will explore what happens if we remove some hypotheses, and we will discuss its relation with aperiodic tilings of the plane (where the number of tiles needed can range from 20426 to 1)."
+  speaker: Luis Modes Castillo
   date: 2025-09-26T12:00:00-04:00
   location: DRL A6
 
