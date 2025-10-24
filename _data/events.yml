@@ -19,7 +19,9 @@
   date: 2025-10-31T12:00:00-04:00
   location: DRL A6
 
-- speaker: Mattie Ji
+- title: An Integration Calculus based on the Euler Characteristics, Revisited
+  abstract: The Euler characteristic, as an alternating count of the number of cells, satisfies a finite additivity condition on nice spaces. This suggests that the Euler characteristic can perhaps be viewed as a finitely additive signed measure! Following this observation, Viro and Schapira independently proposed an integration theory with respect to the Euler characteristic, now known as the Euler calculus. In this talk, I will introduce the setting of o-minimal structures (which can be thought of as "measurable sets" for Euler integrations) and the theory of Euler calculus on them. I will then discuss some interesting properties and applications of Euler calculus. If time permits, I will also discuss an extension of this theory to Lefschetz numbers from the Lefschetz trace formula. The theories presented here have promising applications in the applied sciences, although we probably will not discuss that.
+  speaker: Mattie Ji
   date: 2025-10-24T12:00:00-04:00
   location: DRL A6
 
