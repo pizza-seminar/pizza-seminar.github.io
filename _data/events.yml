@@ -12,6 +12,8 @@
   location: DRL A6
 
 - speaker: Nikita Borisov
+  title: SET-free sets
+  abstract: We will look at the mathematical aspects of the game of SET (where the goal is to find certain triplets called SETs) and the affine cap problem over integers mod 3. We will then see how counting how often no SETs appear relates to hyperplane arrangments, posets, Mobius inversion, etale cohomology and finally representation stability.
   date: 2025-11-7T12:00:00-04:00
   location: DRL A6
 
