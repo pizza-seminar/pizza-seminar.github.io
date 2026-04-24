@@ -1,68 +1,237 @@
 #Example ecents
-- speaker: TBA
+- speaker: Yixuan Hu
+  title: Function space "zoooology"
+  abstract: |
+    You probably have seen all sorts of function spaces before, be it in your sophomore year in undergrad, or a few weeks ago, or, when you were in fourth grade, and you might feel that it is a zoooo. Just in case you would like to be a function space zoooologist this Friday afternoon, you are welcome to join me, and let's scratch the surface a bit more. Why should(n't) we care about $L^{p}$, for $p\in(0,1)$? How shall we define a limit of a family of topological spaces? What is $H^{1}$, and what about $h^{1}$? How shall we interpret fractional derivatives, and negative derivatives? What about .... In the case you don't care about any of these, you are still welcome to join for a surprise (?) at the end.
+  date: 2026-04-17T12:00:00-04:00
+  location: DRL A4
+
+- speaker: Chris Dunstan
+  title: Why does music make my brain go brrr?
+  abstract:
+    "We’ll give a mathematical introduction to music theory and use our
+    framework to explore current theories about why humans like music. Live
+    music will be provided :)"
+  date: 2026-04-11T12:00:00-04:00
+  location: DRL A4
+
+- speaker: David Zhu
+  title: Abelian Groups Gone Wild
+  abstract:
+    Are you struggling to compute ∞-colimits in the ∞-category of ∞-categories?
+    Have p-adic Galois representations attached to elliptic curves haunt your
+    dreams? And what, if anything, is a derived Artin stack with prescribed
+    Tor-amplitude? Sometimes I wish things were as simple as abelian groups…
+  date: 2026-03-27T12:00:00-04:00
+  location: DRL A4
+
+- speaker: Nikita Borisov
+  title: Gnomes and Glomes
+  abstract:
+    Can you decompose Euclidean 3-space as a disjoint union of lines such that
+    no two are parallel? Come find out as we explore various cartographic map
+    projections, the Hopf fibration, and the glome; a famous mathematical object
+    named by paleontologist George Olshevsky.
+  date: 2026-03-20T12:00:00-04:00
+  location: DRL A4
+
+- speaker: Colton Griffin
+  title: High Scores in Guitar Hero
+  abstract:
+    "Guitar Hero is a series of rhythm games that were released between
+    2005-2010. In the game, you press notes to the rhythm of a song using a
+    guitar-shaped controller, and you are awarded points for successfully doing
+    so. However, there is a specific game mechanic that makes it surprisingly
+    difficult to compute the maximum possible score you could be awarded in any
+    given song. This is an example of a combinatorial optimization problem, like
+    Traveling Salesman or other graph theory problems. In this talk, I'll
+    discuss some of the mechanics of the game and how people have developed
+    approximate solutions to the problem of determining maximum possible scores."
+  date: 2026-03-06T12:00:00-05:00
+  location: DRL A4
+
+- speaker: Riley Shahar
+  title: Abstract Nonsense
+  abstract:
+    "Our originally scheduled speaker was unfortunately sick, so Riley filled in
+    with some discussion about the nlab, abstract nonsense, and philosophy."
+  date: 2026-02-27T12:00:00-05:00
+  location: DRL A4
+
+- speaker: Luis Modes Castillo
+  title: Top 10 Proofs of The Infinitude of Primes
+  abstract:
+    "During this talk, we will give several interesting proofs from various
+    areas of math of Euclid's theorem: There are infinitely many prime numbers.
+    Feel free to bring your favorite proof to share!"
+  date: 2026-02-20T12:00:00-05:00
+  location: DRL A4
+
+- speaker: Jasper Ty
+  title: "Minesweeper: Logic, Computation, ... Physics?"
+  abstract:
+    Minesweeper is a famous puzzle game that was shipped with various versions
+    of Windows operating system, where one aims to assign mines to a board of
+    undetermined squares via local counting rules. We will survey various
+    logical and complexity-theoretic analyses of the game, culminating in an
+    experimental result by two (bored) physicists, demonstrating a phase
+    transition phenomenon for Minesweeper closely related to that of random SAT.
+  date: 2026-02-06T12:00:00-05:00
+  location: DRL A4
+
+- speaker: Carmine Ingram
+  title: The Jordan Curve Theorem
+  abstract:
+    'The Jordan Curve Theorem has always gotten a bad rap. Historically,
+    Jordan''s original proof was regarded as insufficient "even for the case of
+    a polygon", and even today the proof of the Jordan curve theorem is regarded
+    as highly technical, and many graduate students have never seen a proof of
+    the theorem, which I believe is a very sad state of affairs. I will give
+    some historical background, discuss what the Jordan curve theorem actually
+    states, present a straightforward proof, and defend Jordan''s original
+    proof.'
+  date: 2026-01-23T12:00:00-05:00
+  location: DRL A4
+
+- speaker: viXra Day
+  title: viXra Day
+  abstract:
+    'Continuing the tradition started by Colton and Yam last year, we will hold
+    a viXra day! viXra (arXiv backwards, https://vixra.org/) is a collection of
+    articles that were rejected by the arXiv. In their words, they serve "the
+    whole scientific community"; in my words, they serve very entertaining
+    crackpots. So let''s have fun learning together about the brilliant
+    mathematical discoveries that those of us in academia are just too hegemonic
+    to appreciate. If you want to participate, feel free to pick your favorite
+    article in advance and plan a mini-talk on it, or to show up on the day of
+    and just read us selections from an article you find entertaining!'
   date: 2025-12-05T12:00:00-04:00
   location: DRL A6
 
 - speaker: Marc Muhleisen
+  title: Proof that e is algebraic
+  abstract:
+    When I was an undergrad, like, eight years ago, a friend told me about a
+    probability puzzle he claimed to have solved. It was shrouded in mystery
+    because apparently the answer was “(e-1)/(e+1) or something like that,” and
+    also he’d forgotten how he solved it. Vaguely tantalized by the presence of
+    Euler’s number, I worked on it passively for a long time. Assuming my friend
+    was right, I will derive for you a contradiction in ZFC by showing that the
+    answer is also a certain algebraic number. On the way, we’ll learn about
+    generating functions. (The puzzle itself is also kind of goofy—you’ll see
+    what I mean…)
   date: 2025-11-21T12:00:00-04:00
   location: DRL A6
 
 - speaker: Vicente Bosca
   title: ∞-Oreo
-  abstract: In this talk I will introduce the ∞-Oreo, probably changing the food industry forever. We will explore other ∞-foods and conclude with a conjecture.
+  abstract:
+    In this talk I will introduce the ∞-Oreo, probably changing the food
+    industry forever. We will explore other ∞-foods and conclude with a
+    conjecture.
   date: 2025-11-14T12:00:00-04:00
   location: DRL A6
 
 - speaker: Nikita Borisov
   title: SET-free sets
-  abstract: We will look at the mathematical aspects of the game of SET (where the goal is to find certain triplets called SETs) and the affine cap problem over integers mod 3. We will then see how counting how often no SETs appear relates to hyperplane arrangements, posets, Mobius inversion, etale cohomology and finally representation stability.
+  abstract:
+    We will look at the mathematical aspects of the game of SET (where the goal
+    is to find certain triplets called SETs) and the affine cap problem over
+    integers mod 3. We will then see how counting how often no SETs appear
+    relates to hyperplane arrangements, posets, Mobius inversion, etale
+    cohomology and finally representation stability.
   date: 2025-11-7T12:00:00-04:00
   location: DRL A6
 
 - speaker: Ellis Buckminster
   title: "Halloween Special: Eldritch horrors in dimensions 0 and 2"
-  abstract: "<img style=\"object-fit: scale; width: 100%;\" src=\"assets/img/ellis-abstract-2025-10-31.png\"/>"
+  abstract:
+    '<img style="object-fit: scale; width: 100%;"
+    src="assets/img/ellis-abstract-2025-10-31.png"/>'
   date: 2025-10-31T12:00:00-04:00
   location: DRL A6
 
 - title: An Integration Calculus based on the Euler Characteristics, Revisited
-  abstract: The Euler characteristic, as an alternating count of the number of cells, satisfies a finite additivity condition on nice spaces. This suggests that the Euler characteristic can perhaps be viewed as a finitely additive signed measure! Following this observation, Viro and Schapira independently proposed an integration theory with respect to the Euler characteristic, now known as the Euler calculus. In this talk, I will introduce the setting of o-minimal structures (which can be thought of as "measurable sets" for Euler integrations) and the theory of Euler calculus on them. I will then discuss some interesting properties and applications of Euler calculus. If time permits, I will also discuss an extension of this theory to Lefschetz numbers from the Lefschetz trace formula. The theories presented here have promising applications in the applied sciences, although we probably will not discuss that.
+  abstract:
+    The Euler characteristic, as an alternating count of the number of cells,
+    satisfies a finite additivity condition on nice spaces. This suggests that
+    the Euler characteristic can perhaps be viewed as a finitely additive signed
+    measure! Following this observation, Viro and Schapira independently
+    proposed an integration theory with respect to the Euler characteristic, now
+    known as the Euler calculus. In this talk, I will introduce the setting of
+    o-minimal structures (which can be thought of as "measurable sets" for Euler
+    integrations) and the theory of Euler calculus on them. I will then discuss
+    some interesting properties and applications of Euler calculus. If time
+    permits, I will also discuss an extension of this theory to Lefschetz
+    numbers from the Lefschetz trace formula. The theories presented here have
+    promising applications in the applied sciences, although we probably will
+    not discuss that.
   speaker: Mattie Ji
   date: 2025-10-24T12:00:00-04:00
   location: DRL A6
 
 - title: The Mathematics of Gerrymandering
-  abstract: We’ll look at how math can be used to detect and even prevent unfair districting in elections. I’ll introduce the basic ideas behind measuring “compactness” of districts, how randomness and geometry come into play, and what makes drawing fair maps such a surprisingly difficult mathematical problem.
+  abstract:
+    We’ll look at how math can be used to detect and even prevent unfair
+    districting in elections. I’ll introduce the basic ideas behind measuring
+    “compactness” of districts, how randomness and geometry come into play, and
+    what makes drawing fair maps such a surprisingly difficult mathematical
+    problem.
   speaker: Jacob Monzel
   date: 2025-10-17T12:00:00-04:00
   location: DRL A6
 
 - title: Building Your Achievement Set
-  abstract: We will be discussing Achievement Sets which are the set containing every subsum of a given series. We will see my method for building achievement sets and explore a handful of examples to see what different types of sets can be built. 
+  abstract:
+    We will be discussing Achievement Sets which are the set containing every
+    subsum of a given series. We will see my method for building achievement
+    sets and explore a handful of examples to see what different types of sets
+    can be built.
   speaker: James Opre
   date: 2025-10-03T12:00:00-04:00
   location: DRL A6
 
 - title: The extension theorem and aperiodic tilings of the plane
-  abstract: "In this talk, we will prove the following intuitive result: If we can tile arbitrarily large disks of the plane with finitely many bounded tiles, then we can tile the whole plane. We will explore what happens if we remove some hypotheses, and we will discuss its relation with aperiodic tilings of the plane (where the number of tiles needed can range from 20426 to 1)."
+  abstract:
+    "In this talk, we will prove the following intuitive result: If we can tile
+    arbitrarily large disks of the plane with finitely many bounded tiles, then
+    we can tile the whole plane. We will explore what happens if we remove some
+    hypotheses, and we will discuss its relation with aperiodic tilings of the
+    plane (where the number of tiles needed can range from 20426 to 1)."
   speaker: Luis Modes Castillo
   date: 2025-09-26T12:00:00-04:00
   location: DRL A6
 
 - title: Can you put this graph on a torus? Maybe!
-  abstract: "In this talk, we will explore how to embed graphs in surfaces, focusing on the connection between graph topology and surface genus. My favorite invariant from algebraic topology will appear (spoiler: it's the Euler characteristic) and we will draw some fun pictures."
+  abstract:
+    "In this talk, we will explore how to embed graphs in surfaces, focusing on
+    the connection between graph topology and surface genus. My favorite
+    invariant from algebraic topology will appear (spoiler: it's the Euler
+    characteristic) and we will draw some fun pictures."
   speaker: Maxine Calle
   date: 2025-09-19T12:00:00-04:00
   location: DRL A6
 
 - title: Funny Consequences of the Axiom of Choice
-  abstract: Many of us are familiar with the Banach-Tarski paradox, but do you know of nonlinear solutions to the equation f(x+y)=f(x)+f(y), or of tricks where it seems as though we can infer an uncountably infinite amount of things from only a countably infinite amount of information? We will discuss some silly tricks you can do with the axiom of choice, and, time permitting, some of its alternatives, and the silly things you can do with them.
+  abstract:
+    Many of us are familiar with the Banach-Tarski paradox, but do you know of
+    nonlinear solutions to the equation f(x+y)=f(x)+f(y), or of tricks where it
+    seems as though we can infer an uncountably infinite amount of things from
+    only a countably infinite amount of information? We will discuss some silly
+    tricks you can do with the axiom of choice, and, time permitting, some of
+    its alternatives, and the silly things you can do with them.
   speaker: Carmine Ingram
   date: 2025-09-12T12:00:00-04:00
   location: DRL A6
 
 - title: The sequence 1, 11, 21, 1211, ... (its name is a spoiler!)
-  abstract: This talk is about a very playful sequence, originally studied by John Conway, whose first terms are displayed in the title. We'll define the sequence, prove some of its basic properties, and then discuss Conway's "cosmological theorem," which determines the limiting behavior of the sequence. A surprising role is played by a particular endomorphism of the free monoid on 92 generators.
+  abstract:
+    This talk is about a very playful sequence, originally studied by John
+    Conway, whose first terms are displayed in the title. We'll define the
+    sequence, prove some of its basic properties, and then discuss Conway's
+    "cosmological theorem," which determines the limiting behavior of the
+    sequence. A surprising role is played by a particular endomorphism of the
+    free monoid on 92 generators.
   speaker: Riley Shahar
   date: 2025-09-05T12:00:00-04:00
   location: DRL A6
